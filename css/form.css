@@ -51,11 +51,23 @@ ul li.active a{
     background-color: black;
     color: wheat;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+  }
+  #project{
+    align-content: center;
+    text-align: center;
+}
+h1{
+    color: black;
+    font-size: 70px;
+}
 form {
     position: absolute;
-    top: 28%;
-    left: 32%;
-    margin: 0 auto;
     width: 450px;
     padding: 1em;
     border-style: groove;
@@ -63,6 +75,11 @@ form {
     border-radius: 1em;
     background-color: black;
     color: white;
+}
+.midbar{
+    display: flex;
+    justify-content: space-around;
+
 }
 input, textarea {
     font: 1em sans-serif;
@@ -149,5 +166,6 @@ textarea{
     cursor: pointer;
     text-align: center;
 }
+
 
 

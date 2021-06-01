@@ -3,7 +3,7 @@
 }
 .header{
     background-image: url(../Images/Background_image.png);
-    height: 140vh;
+    height: 110vh;
     background-size: cover;
     background-position: cover;
 }
@@ -47,17 +47,14 @@ ul li.active a{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.title h1{
+h1{
     color: black;
     font-size: 70px;
 }
 .metadata{
-    position: absolute;
-    top: 55%;
-    left: 15%;
-    transform: translate(-10%,-40%);
     text-align: justify;
-    font-size: 20px;
+    font-size: 26px;
+    margin: 50px 100px;
 }
 
 .project_list{
@@ -66,20 +63,21 @@ ul li.active a{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 10vh;
+}
 #project{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    align-content: center;
+    text-align: center;
 }
 .project_table{
-    position: absolute;
-    top: 78%;
-    left: 5%;
-    transform: translate(10%,-40%);
     text-align: justify;
     font-size: 16px;
-    
+    margin: 0 5vh; 
 }
 th{
     border-bottom: 1px solid black;
@@ -96,17 +94,14 @@ th, td {
       padding: 18px;
   }
   table{
-      width: 180%;
+      width: 100%;
+
   }
+
   .links{
-    position: absolute;
-    top: 70%;
-    left: 8%;
-    transform: translate(-10%,-40%);
     text-align: justify;
-    font-size: 20px;
-    margin: 15px;
-    margin-top: 20px;
+    font-size: 26px;
+    margin: 0 100px;
   }
   .links img{
       height: 40px;
